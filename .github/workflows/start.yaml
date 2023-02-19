@@ -1,0 +1,7 @@
+jobs:
+  start:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start
+        run: |
+          echo "starting..."
