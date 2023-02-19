@@ -1,0 +1,13 @@
+name: Scheduled
+
+on:
+  schedule:
+    - cron: "* * * * *"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello
+        run: |
+          echo "Hello World"
