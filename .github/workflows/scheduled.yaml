@@ -6,4 +6,4 @@ on:
 
 jobs:
   test:
-    uses: huseyinbabl/awesome-gh-actions/.github/workflows/start.yaml@main
+    uses: huseyinbabal/awesome-gh-actions/.github/workflows/start.yaml@main
